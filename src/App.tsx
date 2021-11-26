@@ -5,6 +5,7 @@ import Pages from "./components/Pages";
 import { getNotionPages } from "./api";
 import { NotionPages, User } from "./decl";
 import Login from "./components/Login";
+import "antd/dist/antd.css";
 
 export type AppState = {
   pages: NotionPages;
